@@ -59,7 +59,6 @@ img {
   max-width:100%;height:auto;}
 
 .header-number {
-  background: linear-gradient(to bottom, #D1AD7A, #71330F);
   color:white !important;
   font-weight: bold;
   text-align: center;
@@ -68,4 +67,14 @@ img {
   color: #B9B8B8 !important;
 }
 .header-number1:hover{
-  color: #fff !important;
+  color: #fff !important;}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}

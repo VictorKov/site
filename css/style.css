@@ -77,12 +77,7 @@ hr {
 }
 
 .navbar-inverse {
-  background: #2d2d2d;
-  border-color: #2d2d2d;
-}
-
-.navbar-inverse .navbar-nav>.active>a {
-  background: linear-gradient(to bottom, #D1AD7A, #71330F);
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .navbar-inverse .navbar-brand {
@@ -369,73 +364,8 @@ hr {
    Pricing Tables
    ========================================================================== */
 
-.abrakadabra {
-  display: block;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
 .pricing-option {
-  padding-bottom: 40px;
-}
-
-.pricing-option .pricing-top {
-  position: relative;
-  background: #222;
-  color: white;
-  text-align: center;
-  font-weight: bold;
-  padding: 40px 20px 30px 20px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.pricing-option .pricing-top .special-label {
-  display: block;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #1abc9c;
-  text-transform: uppercase;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 3px 0;
-}
-
-.special .pricing-top {
-  background: black;
-}
-
-.pricing-option .pricing-edition {
-  text-transform: uppercase;
-  display: block;
-  font-size: 25px;
-  letter-spacing: 8px;
-}
-
-.pricing-option .price {
-  display: inline-block;
-  position: relative;
-}
-
-.pricing-option .price sup {
-  position: absolute;
-  top: 50px;
-  left: -10px;
-  font-size: 24px;
-}
-
-.pricing-option .price .price-amount {
-  font-size: 108px;
-  letter-spacing: -4px;
-}
-
-.pricing-option .price small {
-  position: relative;
-  left: -10px;
-  font-size: 18px;
+  padding-bottom: 0px;
 }
 
 .pricing-option ul {
@@ -443,7 +373,6 @@ hr {
   margin: 0;
   background: #eee;
   text-align: center;
-  padding-left: 0px;
 }
 
 .pricing-option ul li {
@@ -459,11 +388,11 @@ hr {
   font-weight: bold;
   padding: 15px 10px;
   color: white;
-  background:#5CB85C;
+  background: black;
 }
 
 .pricing-option .pricing-signup:hover {
-  background: #3B973B;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 /* Contact Form */
@@ -473,10 +402,12 @@ hr {
 /* Copyrights */
 
 #copyrights {
+  position: absolute bottom;
   background: #222222;
   padding: 20px 0;
   text-align: center;
   color: #fff;
+  width: 100%;
 }
 
 #copyrights p {
