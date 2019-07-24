@@ -1,0 +1,71 @@
+.wrapper{
+  height: 100%;
+}
+
+#price{
+  width: 600px;
+}
+
+.carousel .item{
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+.carousel h2{
+	color: #fff;
+	margin: 0;
+  padding-top: 50px;
+  font-size: 48px;
+}
+.carousel p{
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.shadow{
+    box-shadow: 0 0 5px 2px gray;
+    padding: 25px;
+}
+
+#head-white {
+    color: #fff;
+    font-size: 230%;
+}
+
+
+#a {
+  font-size: 15;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:500px;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  max-height: 400px;
+  max-width: 600px;
+  position:absolute;
+}
+
+img {
+  max-width:100%;height:auto;}
+
+.header-number {
+  background: linear-gradient(to bottom, #D1AD7A, #71330F);
+  color:white !important;
+  font-weight: bold;
+  text-align: center;
+}
+.header-number1{
+  color: #B9B8B8 !important;
+}
+.header-number1:hover{
+  color: #fff !important;
