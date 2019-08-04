@@ -191,7 +191,7 @@ hr {
 /****** SECTIONS *****/
 
 .w {
-  padding-top: 35px;
+  padding-top: 60px;
 }
 
 .w h4 {
@@ -202,6 +202,11 @@ hr {
   color:white;
   font-size: 30px;
   text-shadow: black 0 0 2px;
+}
+
+.op {
+  padding-top: 60px;
+  border: #222222;
 }
 
 
