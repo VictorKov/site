@@ -30,151 +30,185 @@
 </head>
 
 <body>
-  <script>bubbly();</script>
+<script>bubbly();</script>
   <!-- Fixed navbar -->
   <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div>
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-          </button>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         <a class="navbar-nav" href="index.html"><img src="img/logo1.png" height="50px" width="85px" alt="Главная"></a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#home">ГЛАВНАЯ</a></li>
+          <li><a href="#home" data-value="home">ГЛАВНАЯ</a></li>
            <!-- <li><a href="about.html">О НАС</a></li>-->
-          <li><a href="#price">ЦЕНЫ</a></li>
-          <li><a href="#gallery">ГАЛЛЕРЕЯ</a></li>
-          <li><a href="#contacts">КОНТАКТЫ</a></li>
+          <li><a href="#price" data-value="price">ЦЕНЫ</a></li>
+          <li><a href="#gallery" data-value="gallery">ГАЛЛЕРЕЯ</a></li>
+          <li><a href="#contacts" data-value="contacts">КОНТАКТЫ</a></li>
           <li class="header-number"> <i class="fa fa-volume-control-phone"></i> Телефон: <a href="tel:+79651516065" class="header-number1">+79651516065</a>
           </li>
         </ul>
       </div>
-     
-      <!--/.nav-collapse -->
     </div>
   </div>
-    <section id="home">    
-      <div class="container w">
-        <div class="row centered">
-          <br><br>
-          <div class="col-lg-12">
-            <h2><span style="font-family: Arial, Helvetica, sans-serif">5</span> ПРИЧИН, ПОЧЕМУ МЫ</h2>
-          </div>
-          <br>
-          <br>
-          <div class="col-md-4">
-            <i class="fa fa-handshake-o"></i>
-            <h4>Клиент всегда прав</h4>
-            <p>Мы внимательно относимся к каждому арендатору, поэтому мы придлагаем бытовки индивидуально каждому клиенту.</p>
-          </div>
-          <div class="col-md-4">
-            <i class="fa fa-volume-control-phone"></i>
-            <h4>Готовы помочь Вам в любое время</h4>
-            <p>Наша команда работает без выходных и круглосуточно, поэтому Вы всегда можете с нами <a href="contacts.html"><span style="font-size: 115%">связаться</span></a>. Мы будем рады быть полезными Вам.</p>
-          </div>
-          <div class="col-md-4">
-            <i class="fa fa-thumbs-up"></i>
-            <h4>Лучшее качество</h4>
-            <p>Мы развиваемся и растем, поэтому сдаем только качественные бытовки и по <a id="a" href="services.html"><span style="font-size: 115%">самым дешевым ценам</span></a>. В связи с этим наши бытовки пользуются спросом и подходят для разных интересов: от дачь и временных модулей, до полномасштабных строительных работ.</p>
-          </div>
-        
+
+  <!--Home-->
+  <section id="home">    
+    <div class="container w">
+      <div class="row centered">
+        <br><br>
+        <div class="col-lg-12">
+          <h2><span style="font-family: Arial, Helvetica, sans-serif">5</span> ПРИЧИН, ПОЧЕМУ МЫ</h2>
+        </div>
+        <br>
+        <br>
+        <div class="col-md-4">
+          <i class="fa fa-handshake-o"></i>
+          <h4>Клиент всегда прав</h4>
+          <p>Мы внимательно относимся к каждому арендатору, поэтому мы придлагаем бытовки индивидуально каждому клиенту.</p>
+        </div>        
+        <div class="col-md-4">
+          <i class="fa fa-volume-control-phone"></i>
+          <h4>Готовы помочь Вам в любое время</h4>
+          <p>Наша команда работает без выходных и круглосуточно, поэтому Вы всегда можете с нами <a href="contacts.html"><span style="font-size: 115%">связаться</span></a>. Мы рады быть полезными Вам.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fa fa-thumbs-up"></i>
+          <h4>Лучшее качество</h4>
+          <p>Мы развиваемся и растем, поэтому сдаем только качественные бытовки и по <a id="a" href="services.html"><span style="font-size: 115%">самым дешевым ценам</span></a>. В связи с этим наши блок-контейнеры пользуются спросом и подходят для разных интересов: от дачь и временных модулей, до полномасштабных строительных работ.</p>
+        </div>        
         <div class="col-md-6">
-            <i class="fa fa-truck" aria-hidden="true"></i>
-            <h4>Доставка</h4>
-            <p>Доставка бытовок осуществляется в любую точку Москвы и Московской области - <b><span style="font-size: 120%;">круглосуточно!</span></b></p>
-          </div>
-          <!-- col-lg-4 -->        
-          <div class="col-md-6">
-            <i class="fa fa-rub"></i>
-            <h4>Цены</h4>
-            <p>Цены на бытовки и хозблоки формируются исходя из Ваших пожеланий.</p>
-          </div>
-        <!-- row -->
-        <br>
-        <br>
+          <i class="fa fa-truck" aria-hidden="true"></i>
+          <h4>Доставка</h4>
+          <p>Доставка бытовок осуществляется в любую точку Москвы и Московской области - <b><span style="font-size: 120%;">круглосуточно!</span></b></p>
+        </div>
+        <div class="col-md-6">
+          <i class="fa fa-rub"></i>
+          <h4>Цены</h4>
+          <p>Цены на бытовки и хозблоки формируются исходя из Ваших пожеланий.</p>
+        </div>
       </div>
     </div>
-    </section>
-    <!-- container -->
-    <section id="gallery">
-     <div class="container w">
-        <div class="row centered">
-          <div class="col-lg-12">
-            <div class="row">
-              <div class="col-md-6 col-md-offset-3">
-                  <div class="fotorama" data-allowfullscreen="true" data-autoplay="true" data-nav="thumbs">
-                      <img src="img/1.jpg">
-                      <img src="img/2.jpg">
-                      <img src="img/3.jpg">
-                      <img src="img/4.jpg">
-                      <img src="img/5.jpg">  
-                      <a href="https://youtube.com/watch?v=C3lWwBslWqg">Desert Rose</a>      
-                  </div>
+  </section>
+  <!--/Home-->
+
+  <!--Gallery-->
+  <section id="gallery">
+    <div class="container w">
+      <div class="row centered">
+        <div class="col-lg-12">
+          <h2>НАША ГАЛЛЕРЕЯ</h2>
+        </div>
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="fotorama" data-allowfullscreen="true" data-autoplay="true" data-nav="thumbs">
+                <img src="img/1.jpg">
+                <img src="img/2.jpg">
+                <img src="img/3.jpg">
+                <img src="img/4.jpg">
+                <img src="img/5.jpg">  
+                <img src="img/5.jpg">
+                <img src="img/IMG-20181220-WA0021.jpg">
+                <img src="img/IMG-20181220-WA0024.jpg">
+                <img src="img/IMG-20181220-WA0025.jpg">
+                <img src="img/IMG-20181220-WA0026.jpg">
+                <img src="img/IMG-20181220-WA0027.jpg">
+                <img src="img/IMG-20181220-WA0028.jpg">
+                <img src="img/IMG-20181220-WA0029.jpg">
+                <img src="img/IMG-20181220-WA0030.jpg">
+                <img src="img/IMG-20181220-WA0031.jpg">
+                <img src="img/IMG-20181220-WA0032.jpg">
+                <img src="img/IMG-20181220-WA0033.jpg">
+                <img src="img/IMG-20181220-WA0034.jpg">
+                <img src="img/IMG-20181220-WA0035.jpg">
+                <img src="img/IMG-20181220-WA0036.jpg">
+                <img src="img/IMG-20181220-WA0037.jpg">
+                <img src="img/IMG-20181220-WA0038.jpg">
+                <img src="img/IMG-20181220-WA0039.jpg">
+                <img src="img/IMG-20181220-WA0040.jpg">
+                <img src="img/IMG-20181220-WA0041.jpg">
+                <a href="https://youtube.com/watch?v=C3lWwBslWqg">Desert Rose</a>      
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/Gallery-->
+
+  <!-- Prices-->
+  <section id="price">
+    <div class="container op">
+      <div class="row centered">
+        <div class="col-lg-12">
+          <h2>НАШИ ЦЕНЫ</h2>
+        </div>                                   
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <div class="plan">
+                <div class="paln-head">
+                  <span>Бытовка</span>
+                </div>
+                <div class="plans-tag">Описание</div>
+                <div class="plans-body">
+                  <ul>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Назначение</b> рабочее помещение</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Каркас</b> металлическая конструкция, ошитая оцинкованным проф. листом</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Утепление</b> пол, потолок, стены - Минеральная вата "URSA" толщиной 50мм на деревянной обрешётке с паро и ветро изоляцией из полиэтилена</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Внутренняя обшивка</b> ДВП, либо вагонка</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Электропроводка</b> по схеме без заземления, напряжение до 3.5 кВт</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Пол</b> ДСП, либо ленолеум</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Окна</b> деревянные</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Двери</b> входная-орголитовая общитая снаружи оцинкованным листом с врезным или навесным замком; межкомнатная-орголитовая с ручкой</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Габариты здания</b> ДСП, либо ленолеум</li>
+                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Нары двухъярусные</b> по согласованию</li>
+                  </ul>
+                </div>
+                <div class="plans-tag">Цена</div>
+                <div class="plans-body">
+                    <h2>ЦЕНА ОТ 4500р.</h2>
+                </div>
+                <div class="plans-footer">
+                  <a href="#">Заказать</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section> 
-          <!-- container -->
-          <section id="price">
-              <div class="container op">
-                  <div class="row centered">                                   
-                      <div class="col-lg-12">
-                          <div class="row">
-                            <div class="col-md-6 col-md-offset-3">
-                              <div class="plan">
-                                <div class="paln-head">
-                                  <span>Бытовка</span>
-                                </div>
-                                <div class="plans-tag">Описание</div>
-                                <div class="plans-body">
-                                  <ul>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Назначение</b> рабочее помещение</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Каркас</b> металлическая конструкция, ошитая оцинкованным проф. листом</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Утепление</b> пол, потолок, стены - Минеральная вата "URSA" толщиной 50мм на деревянной обрешётке с паро и ветро изоляцией из полиэтилена</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Внутренняя обшивка</b> ДВП, либо вагонка</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Электропроводка</b> по схеме без заземления, напряжение до 3.5 кВт</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Пол</b> ДСП, либо ленолеум</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Окна</b> деревянные</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Двери</b> входная-орголитовая общитая снаружи оцинкованным листом с врезным или навесным замком; межкомнатная-орголитовая с ручкой</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Габариты здания</b> ДСП, либо ленолеум</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i> <b>Нары двухъярусные</b> по согласованию</li>
-                                  </ul>
-                                </div>
-                              <div class="plans-footer">
-                              <a href="#">Заказать</a>
-                              </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      </div>
-                    </section>
- <!-- FOOTER -->
+      </div>
+    </div>
+  </section>
+  <!--/Prices-->
+  <section id="contacts">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-12">
+          <h2>КАК С НАМИ СВЯЗАТЬСЯ</h2>
+        </div>
+
+
+  </section>
+
+  <!-- FOOTER -->
   <div id="f">
     <div class="container">
       <div class="row centered">
-        <a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-vk"></i></a><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-instagram"></i></a>
       </div>
-      <!-- row -->
     </div>
-    <!-- container -->
-  </div>
-  <!-- Footer -->
-
-  <!-- MODAL FOR CONTACT -->
-  <!-- Modal -->
-  
-  <!-- /.modal -->
+  </div> 
+  <!-- /Footer -->
 
   <!-- JavaScript Libraries -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+  <script type='text/javascript' src="lib/js/main.js"></script>
   <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
   <script type='text/javascript' src="lib/js/jquery.min.js"></script>
   <script type='text/javascript' src="lib/bootstrap/js/bootstrap.min.js"></script>

@@ -1,12 +1,11 @@
-/**
-* Template Name: Spot
-* Template URL: https://templatemag.com/spot-bootstrap-freelance-template/
-* Author: TemplateMag.com
-* License: https://templatemag.com/license/
-*/
+html,
+body{
+  height: 100%;
+  padding: 0;
+}
 
 body {
-  background-color: #f2f2f2;
+  background-color: blue;
   font-family: "Lato";
   font-weight: 300;
   font-size: 16px;
@@ -95,83 +94,7 @@ hr {
   letter-spacing: 1px;
 }
 
-/* Courusel image */
  
-
-/* ==========================================================================
-   Wrap Sections
-   ========================================================================== */
-
-#headerwrap {
-  margin-top: -10px;
-  padding-top: 20px;
-  text-align: center;
-  background-attachment: relative;
-  background-position: center center;
-  min-height: 500px;
-  width: 100%;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#headerwrap h1 {
-  margin-top: 100px;
-  color: white;
-  font-size: 50px;
-  font-weight: 300;
-  letter-spacing: 3px;
-}
-
-#headerwrap h3 {
-  color: white;
-  font-size: 40px;
-  font-weight: 200;
-  letter-spacing: 3px;
-
-}
-
-@media (max-width: 768px ) {
-  #headerwrap h1 {
-    font-size: 50px;
-  }
-
-  #headerwrap h3 {
-    font-size: 30px;
-  }
-}
-
-/* Dark Grey Wrap */
-
-#dg {
-  background: #e0e0e0;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  text-align: center;
-}
-
-#dg h4 {
-  font-weight: 700;
-}
-
-/* Light Grey */
-
-#lg {
-  background: #ebebeb;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  text-align: center;
-}
-
-#lg h4 {
-  font-weight: 700;
-}
-
 #f {
   background: #2d2d2d;
   padding: center;
@@ -179,13 +102,13 @@ hr {
 }
 
 #f i {
-  color: #bdbdbd;
+  color:#B9B8B8;
   font-size: 30px;
   padding: 20px;
 }
 
 #f i:hover {
-  color: #ff7878;
+  color: #fff;
 }
 
 /****** SECTIONS *****/
@@ -204,48 +127,141 @@ hr {
   text-shadow: black 0 0 2px;
 }
 
-.op {
-  padding-top: 60px;
-  border: #222222;
-}
 
 
 
 /* ==========================================================================
    Pricing Tables
    ========================================================================== */
-
-.pricing-option {
-  padding-bottom: 0px;
-}
-
-.pricing-option ul {
-  list-style: none;
-  margin: 0;
-  background: #eee;
-  text-align: center;
-}
-
-.pricing-option ul li {
-  border-bottom: solid 1px #e1e1e1;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.pricing-option .pricing-signup {
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 15px 10px;
-  color: white;
-  background: black;
-}
-
-.pricing-option .pricing-signup:hover {
-  background: rgba(0, 0, 0, 0.7);
-}
-
+   .plan .paln-head{
+    background-size: 100%;
+    height: 154px;
+    text-align: center;
+    padding-top: 40px;
+    position: relative;
+    border-radius: 12px 12px 0 0;
+   }
+   
+  .plan .paln-head>span{
+    z-index: 2;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-size: 39px;
+   }
+   .plan .paln-head>span>b{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 19px;
+   }
+  .plan .paln-head>span>i{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    display: block;
+    color: #fff;
+    position: relative;
+    z-index: 3;
+    font-size: 12px;
+    margin-top: -8px;
+   }
+   .plan .paln-head:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(61, 148, 206, 0.74);
+    top: 0;
+    border-radius: 12px 12px 0 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+   }
+   .plan:hover .paln-head:after{
+    background: rgba(44, 119, 169, 0.74);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+   }
+  .plan .plans-tag{
+    background: -webkit-linear-gradient(left, #06a8f1, #22ce9c);
+    background: -o-linear-gradient(right, #06a8f1, #22ce9c);
+    background: -moz-linear-gradient(right, #06a8f1, #22ce9c);
+    background: linear-gradient(to right, #06a8f1, #22ce9c);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    display: block;
+    max-width: 140px;
+    text-align: center;
+    padding: 11px;
+    border-radius: 41px;
+    margin: auto;
+    margin-top: -20px;
+    position: relative;
+   }
+  .plan .plans-body{
+    background: rgba(238, 241, 241, 0.68);
+    margin-top: -20px;
+    padding: 30px;
+    padding-top: 41px;
+    color: #afbac3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+   }
+   
+   .plan .plans-body ul{
+    padding-left: 0;
+   }
+  .plan .plans-body ul>li{
+    list-style: none;
+    margin: 18px 0;
+    font-size: 13px;
+    cursor: pointer;
+    color: white;
+    text-shadow: black 0 0 2px;
+   }
+  .plan .plans-body ul>li>i{
+    margin-right: 5px;
+   }
+   .plan .plans-body ul>li:hover{
+    color: blue;
+   }
+   .plan .plans-footer{
+    background: rgba(243, 246, 246, 0.54);
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid rgba(227, 232, 232, 0.55);
+   }
+   .plan .plans-footer a{
+    color: #955db8;
+    font-weight: bold; 
+    border: 2px solid #955db8;
+    padding: 7px 40px;
+    border-radius: 40px;
+    text-decoration: none;
+   }
+   .plan .plans-footer a:hover{
+    color: #ffffff;
+    background: #955db8;
+    text-decoration: none;
+   }
+   .plans-footer{
+    margin-bottom:30px;
+   }
+   .plans-body h2{
+     color: green;
+     text-shadow: white 0 0 2.5px;
+     text-decoration: underline;
+   }
+   
 /* Copyrights */
 
 #copyrights {
