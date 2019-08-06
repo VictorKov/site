@@ -9,17 +9,10 @@ body {
   font-family: "Lato";
   font-weight: 300;
   font-size: 16px;
-  color: #555;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   margin-top: 70px;
 }
-
-#footer{
-  height: 80px;
-  margin-top: -80px
-}
-
 /* Titles */
 
 h1, h2, h3, h4, h5, h6 {
@@ -78,7 +71,7 @@ hr {
 }
 
 .navbar-inverse {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.75);
 }
 
 .navbar-inverse .navbar-brand {
@@ -89,29 +82,11 @@ hr {
 }
 
 .navbar-inverse .navbar-brand i {
-  color: #ff7878;
   font-size: 22px;
   letter-spacing: 1px;
 }
 
- 
-#f {
-  background: #2d2d2d;
-  padding: center;
-  width: 100%;
-}
-
-#f i {
-  color:#B9B8B8;
-  font-size: 30px;
-  padding: 20px;
-}
-
-#f i:hover {
-  color: #fff;
-}
-
-/****** SECTIONS *****/
+/* SECTIONS */
 
 .w {
   padding-top: 60px;
@@ -127,12 +102,8 @@ hr {
   text-shadow: black 0 0 2px;
 }
 
+/* Pricing Table */
 
-
-
-/* ==========================================================================
-   Pricing Tables
-   ========================================================================== */
    .plan .paln-head{
     background-size: 100%;
     height: 154px;
@@ -234,6 +205,11 @@ hr {
    .plan .plans-body ul>li:hover{
     color: blue;
    }
+   .plans-body h2{
+    color: red;
+    text-shadow: white 0 0 2.5px;
+    text-decoration: underline;
+  }
    .plan .plans-footer{
     background: rgba(243, 246, 246, 0.54);
     padding: 30px;
@@ -241,46 +217,36 @@ hr {
     border-top: 1px solid rgba(227, 232, 232, 0.55);
    }
    .plan .plans-footer a{
-    color: #955db8;
+    color: #4169E1;
     font-weight: bold; 
-    border: 2px solid #955db8;
+    border: 2px solid #4169E1;
     padding: 7px 40px;
     border-radius: 40px;
     text-decoration: none;
    }
    .plan .plans-footer a:hover{
     color: #ffffff;
-    background: #955db8;
+    background: #4169E1;
     text-decoration: none;
    }
    .plans-footer{
     margin-bottom:30px;
    }
-   .plans-body h2{
-     color: green;
-     text-shadow: white 0 0 2.5px;
-     text-decoration: underline;
-   }
-   
-/* Copyrights */
 
-#copyrights {
-  position: absolute bottom;
-  background: #222222;
-  padding: 20px 0;
-  text-align: center;
-  color: #fff;
-  width: 100%;
-}
+   /* Footer */
 
-#copyrights p {
-  margin-bottom: 5px;
-}
-
-.credits {
-  color: #999;
-}
-
-#form-phone{
-  margin-top: 100px;
-}
+   #f {
+    padding: center;
+    width: 100%;
+  }
+  
+  #f i {
+    color: #22ce9c;
+    font-size: 30px;
+    padding: 20px;
+  }
+  
+  #f i:hover {
+    color: #fff;
+  }
+  
