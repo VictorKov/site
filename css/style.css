@@ -195,14 +195,10 @@ hr {
     list-style: none;
     margin: 18px 0;
     font-size: 13px;
-    cursor: pointer;
     color: black;
    }
   .plan .plans-body ul>li>i{
     margin-right: 5px;
-   }
-   .plan .plans-body ul>li:hover{
-    color: white;
    }
    .plans-body h2{
     color: red;
