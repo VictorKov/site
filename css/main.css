@@ -28,11 +28,12 @@ img {
    background-color: #7197C3;
  }
  .commun a{
-  color: #22ce9c;
+  color: white;
   text-shadow: black 0 0 2px;
+  font-family: 'Times New Roman', Times, serif;
  }
  .commun a:hover{
-  color: #fff;
+  color: #999999;
  }
 
  #form{
