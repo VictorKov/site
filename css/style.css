@@ -5,7 +5,7 @@ body{
 }
 
 body {
-  background-color: blue;
+  background-color: #1583C7;
   font-family: "Lato";
   font-weight: 300;
   font-size: 16px;
@@ -196,14 +196,13 @@ hr {
     margin: 18px 0;
     font-size: 13px;
     cursor: pointer;
-    color: white;
-    text-shadow: black 0 0 2px;
+    color: black;
    }
   .plan .plans-body ul>li>i{
     margin-right: 5px;
    }
    .plan .plans-body ul>li:hover{
-    color: blue;
+    color: white;
    }
    .plans-body h2{
     color: red;
@@ -242,6 +241,7 @@ hr {
   
   #f i {
     color: #22ce9c;
+    text-shadow: black 0 0 2px;
     font-size: 30px;
     padding: 20px;
   }

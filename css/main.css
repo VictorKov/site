@@ -24,3 +24,19 @@ img {
    border-bottom-left-radius: 100px;
  }
 
+ .commun{
+   background-color: #7197C3;
+ }
+ .commun a{
+  color: #22ce9c;
+  text-shadow: black 0 0 2px;
+ }
+ .commun a:hover{
+  color: #fff;
+ }
+
+ #form{
+   background: #7197C3;
+   border-radius: 80px;
+ }
+
