@@ -35,16 +35,16 @@
   <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <button type="button" class="navbar-toggle" id="menu" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-nav" href="index.html"><img src="img/logo1.png" height="50px" width="85px" alt="Главная"></a>
       </div>
-      <div class="navbar-collapse collapse">
+      <div class="navbar-collapse collapse" id="collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#home" data-value="home">ГЛАВНАЯ</a></li>
+          <li><a href="#head" data-value="head">ГЛАВНАЯ</a></li>
            <!-- <li><a href="about.html">О НАС</a></li>-->
           <li><a href="#price" data-value="price">ЦЕНЫ</a></li>
           <li><a href="#gallery" data-value="gallery">ГАЛЛЕРЕЯ</a></li>
@@ -55,7 +55,42 @@
       </div>
     </div>
   </div>
+  <!--Head-->
+  <section id="head">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-md-12">
+          <h1>
+            <br>
+            <p>АРЕНДА</p>
+            <br>
+            <p>БЫТОВОК</p>
+          </h1>
+          <br>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="col-md-4">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <p><u>БЛОК-КОНТЕЙНЕРЫ (БЫТОВКИ)</u></p>
+                <p><u>всегда в наличии</u></p>
+              </div>
+              <div class="col-md-4">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <p><u>ДОСТАВКА</u></p>
+                <p><u>своими манипуляторами</u></p>
+              </div>
+              <div class="col-md-4">
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <p><u>ВСЕВОЗМОЖНЫЕ ВАРИАНТЫ</u></p>
+                <p><u>внутренней отделки</u></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+    </div>
+  </section>
   <!--Home-->
   <section id="home">    
     <div class="container w">
@@ -161,7 +196,7 @@
           <div class="col-lg-12">
             <div class="row">
               <div class="col-md-12">
-                <div class="fotorama" data-allowfullscreen="true" data-autoplay="true" data-nav="thumbs">
+                <div class="fotorama gallereya" data-allowfullscreen="true" data-autoplay="true" data-nav="thumbs">
                   <img src="img/1.jpg">
                   <img src="img/2.jpg">
                   <img src="img/3.jpg">
@@ -186,8 +221,7 @@
                   <img src="img/IMG-20181220-WA0038.jpg">
                   <img src="img/IMG-20181220-WA0039.jpg">
                   <img src="img/IMG-20181220-WA0040.jpg">
-                  <img src="img/IMG-20181220-WA0041.jpg">
-                  <a href="https://youtube.com/watch?v=C3lWwBslWqg">Desert Rose</a>      
+                  <img src="img/IMG-20181220-WA0041.jpg">   
                 </div>
               </div>
             </div>
@@ -211,7 +245,7 @@
               <h3>
                 <p><u>НАШИ КОНТАКТЫ</u></p>
                 <p><i class="fa fa-mobile" aria-hidden="true"></i> Телефон: <a href="tel:+79651516065"><b><u>+79651516065</u></b></a> - Артём</p>
-                <p><i class="fa fa-envelope-open" aria-hidden="true"></i> Задавайте вопросы по электронной почте: <a href="mailto:ap.1910@yandex.ru"><b><u>ap.1910@yandex.ru</u></b></a></p>
+                <p><i class="fa fa-envelope-open" aria-hidden="true"></i> Задавайте вопросы по электронной почте: <a href="mailto:bitovka.ug@yandex.ru"><b><u>bitovka.ug@yandex.ru</u></b></a></p>
                 <p><i class="fa fa-clock-o" aria-hidden="true"></i> Время работы: <b><u>КРУГЛОСУТОЧНО</u></b></p>
                 <hr>
                 <p><u>О НАС</u></p>
@@ -260,7 +294,7 @@
                 <label for="message">Сообщение:</label>
                 <textarea class="form-control" name="message" rows="3"></textarea>
               </div>
-                <button type="submit" class="btn btn-info">Отправить сообщение</button>
+                <button type="submit" class="btn btn-info" onclick="getData()">Отправить сообщение</button>
               </form>
               </div>
               <div class="col-md-4"> </div> </div>

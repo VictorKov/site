@@ -1,5 +1,28 @@
-#a {
-  font-size: 15;
+#head{
+background: fixed url("../img/header-bg.jpg");
+background-size: 100% 100%;
+padding: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+line-height: 30px;
+border-top-right-radius: 40px;
+border-top-left-radius: 40px;
+}
+
+#head p{
+  text-shadow: black 0 0 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#head h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 60px;
+}
+
+#head i{
+  font-size: 40px;
+  color: #22ce9c;
+  text-shadow: black 0 0 10px;
 }
 
 img {
@@ -24,6 +47,14 @@ img {
    border-bottom-left-radius: 100px;
  }
 
+ .gallereya{
+   background-color: #191919;
+   border-bottom-right-radius: 40px;
+   border-bottom-left-radius: 40px;
+   border-top-right-radius: 40px;
+   border-top-left-radius: 40px;
+ }
+
  .commun{
    background-color: #7197C3;
  }
@@ -40,4 +71,5 @@ img {
    background: #7197C3;
    border-radius: 80px;
  }
+
 
