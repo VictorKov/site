@@ -1,4 +1,10 @@
 @media screen and (max-width: 991px){
+  .mobile1{
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 992px){
   .mobile{
     display: none !important;
   }
