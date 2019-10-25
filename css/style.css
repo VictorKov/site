@@ -2,11 +2,18 @@ header{
   background: url(../img/header-bg1.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 500px;
+  min-height: 550px;
+}
+
+header h1{
   text-shadow: black 0 0 10px;
 }
 
-header div{
+div{
+  border-radius: 5px;
+}
+
+section h3{
   border-radius: 5px;
 }
 
