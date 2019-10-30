@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 </head>
   <body>
-  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" id="menu">
       <a class="navbar-brand" href="index.html">
         <img src="img/logo1.png" width="80px"> Юг-Плюс
       </a>
@@ -22,16 +22,16 @@
       <div class="collapse navbar-collapse ml-4" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"><h6>Главная</h6></a>
+            <a class="nav-link" href="index.html"><h6>Главная</h6></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><h6>Цена</h6></a>
+            <a class="nav-link" href="#Prise"><h6>Цена</h6></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><h6>Галлерея</h6></a>
+            <a class="nav-link" href="#Gallery"><h6>Галлерея</h6></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><h6>Контакты</h6></a>
+            <a class="nav-link" href="#Contacts"><h6>Контакты</h6></a>
           </li>
         </ul>
         <ul class="navbar-nav mobile">
@@ -81,7 +81,7 @@
       </div>
       </div>
     </header>
-    <section class="col-md-8 offset-md-2 mt-3">
+    <section class="col-md-8 offset-md-2 mt-5">
       <div class="container">
         <div class="row">
           <h1 class="left text-light bg-dark rounded p-1">5 ПРИЧИН ВЫБРАТЬ ИМЕННО НАС</h1>
@@ -110,7 +110,7 @@
         </div>
       </div>
     </section>
-    <section id="section1" class="rounded col-md-8 offset-md-2 mt-4">
+    <section id="Prise" class="rounded col-md-8 offset-md-2 mt-5">
       <div class="container">
         <div class="row">
           <h1 class="left mt-4 text-light bg-dark rounded p-1">НАШИ ЦЕНЫ</h1>
@@ -135,14 +135,14 @@
                   <hr>
                 </p>
                 <p class="card-text"><small class="text-danger"><h4>Цены начинаются от 4500р* за бытовку.</h4></small></p>
-                <p class="card-text"><small class="text-mutеd">*Подробности уточняйте по телефону или оставьте нам заявку</small></p>
+                <p class="card-text"><small class="text-mutеd">*Подробности уточняйте по телефону или оставьте нам <a class="text-light bg-dark" href="#exampleModal" data-toggle="modal" data-target="#exampleModal">заявку</a></small></p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="col-md-6 offset-md-2 mt-5 mb-3" id="section2">
+    <section class="col-md-6 offset-md-2 mt-5" id="Gallery">
       <div class="container">
         <div class="row">
           <h1 class="left text-light bg-dark rounded mb-4 p-1">НАША ГАЛЛЕРЕЯ</h1>
@@ -237,7 +237,7 @@
         </div>
       </div>
     </section>
-    <section id="section5" class="col-md-8 rounded offset-md-2 mt-4">
+    <section id="Contacts" class="col-md-8 rounded offset-md-2 mt-5 p-1">
       <div class="container">
         <div class="row">
           <h1 class="left text-light bg-dark rounded mb-4 p-1">КАК С НАМИ СВЯЗАТЬСЯ</h1>
@@ -256,49 +256,48 @@
                 <p>Юр.адрес: 108841, г.Москва, г.Троицк, ул.Полковника милиции Курочкина, дом 15,пом.IV, ком.21</p>
               </h5>
           </address>
-          <button type="button" class="btn btn-dark col-12" data-toggle="modal" data-target="#exampleModal">Связаться с нами</button>
-            
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Форма обратной связи</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                      <div id="form">
-                          <form action="lib/php/form.php" method="post">
-                        <div class="form-group">
-                          <label for="name">Ваше имя:</label>
-                          <input type="name" name="name" class="form-control" id="name" placeholder="Ваше имя"required>
-                        </div>
-                        <div class="form-group">
-                          <label for="email1">E-mail:</label>
-                          <input type="email" name="email" class="form-control" id="email1" placeholder="Email"required>
-                        </div>
-                        <div class="form-group">
-                          <label for="phone">Номер телефона:</label>
-                          <input type="tel" name="phone" class="form-control" id="phone" placeholder="Номер телефона" pattern="[+][0-9][0-9]{3}[0-9]{3}[0-9]{4}" required>
-                          <p>Формат: +7123456789</p>
-                        </div>
-                        <div class="form-group">
-                          <label for="message">Сообщение:</label>
-                          <textarea class="form-control" name="message" rows="3" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-dark right">Отправить</button>
-                        </form>
-                      </div>
+          <button type="button" class="btn btn-dark col-12" data-toggle="modal" data-target="#exampleModal">Связаться с нами</button> 
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Форма обратной связи</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div id="form">
+                    <form action="lib/php/form.php" method="post">
+                    <div class="form-group">
+                      <label for="name">Ваше имя:</label>
+                      <input type="name" name="name" class="form-control" id="name" placeholder="Ваше имя"required>
+                    </div>
+                    <div class="form-group">
+                      <label for="email1">E-mail:</label>
+                      <input type="email" name="email" class="form-control" id="email1" placeholder="Email"required>
+                    </div>
+                    <div class="form-group">
+                      <label for="phone">Номер телефона:</label>
+                      <input type="tel" name="phone" class="form-control" id="phone" placeholder="Номер телефона" pattern="[+][0-9][0-9]{3}[0-9]{3}[0-9]{4}" required>
+                      <p>Формат: +7123456789</p>
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Сообщение:</label>
+                      <textarea class="form-control" name="message" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark right">Отправить</button>
+                    </form>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
         </div>
       </div>
     </section>
-    <section class="bg-dark mt-1">
+    <section class="bg-dark">
      <div class="container">
        <div class="row text-center">
           <h2 class="col-12"><a class="col-4 text-light" href="#"><i class="fab fa-vk"></i></a><a class="col-4 text-light" href="#"><i class="fab fa-facebook-square"></i></a><a class="col-4 text-light" href="#"><i class="fab fa-instagram"></i></a></h2>
