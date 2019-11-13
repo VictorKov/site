@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Бытовки Юг</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <title>Аренда бытовок в Троицке</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+  <meta content="аренда бытовок, аренда бытовок в Троцике, аренда бытовок в Москве, аренда бытовок с доставкой" name="keywords">
+  <meta content="Аренда бытовок в Троцике(Новая Москва) от 4500 руб./месяц с доставкой! Доставка бытовок осуществляется на всей территории Москвы и Московской области!" name="description">
   <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -104,7 +104,7 @@
             </div>
             <div class="col-md-6 p-1">
               <h3 class="text-white bg-dark p-1">Цены</h3>
-              <h5 class="text-left">Цены на бытовки и хозблоки формируются исходя из <strong>Ваших</strong> пожеланий</h5>
+              <h5 class="text-left">Цены на бытовки и хозблоки формируются исходя из <strong>Ваших</strong> пожеланий. Предварительную стоимость сожно узнать <a class="text-light bg-dark" href="#online-calc">здесь</a></h5>
             </div>
           </div>
         </div>
@@ -113,9 +113,9 @@
     <section id="Prise" class="rounded col-md-8 offset-md-2 mt-5">
       <div class="container">
         <div class="row">
-          <h1 class="left mt-4 text-light bg-dark rounded p-1">НАШИ ЦЕНЫ</h1>
+          <h1 class="mt-4 text-light bg-dark rounded p-1">НАШИ ЦЕНЫ</h1>
           <div class="row mt-2">
-            <div class="card mt-1 shadow col-md-6 offset-md-3">
+            <div class="card mt-1 shadow col-md-6">
               <img src="img/4.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Бытовка</h5>
@@ -137,6 +137,22 @@
                 <p class="card-text"><small class="text-danger"><h4>Цены начинаются от 4500р* за бытовку.</h4></small></p>
                 <p class="card-text"><small class="text-mutеd">*Подробности уточняйте по телефону или оставьте нам <a class="text-light bg-dark" href="#exampleModal" data-toggle="modal" data-target="#exampleModal">заявку</a></small></p>
               </div>
+            </div>
+            <div class="mt-4 col-md-6" id="online-calc">
+              <h4 class="text-light bg-dark rounded p-1 text-center">Онлайн калькулятор</h4>
+                <div class="col-md-12 mb-2">
+                    <h4>Количество бытовок</h4>
+                    <input class="col-md-12" type="number" id="col">
+                </div>
+                <div class="col-md-12 mt-3 mb-2">
+                    <h4>Количество месяцев</h4>
+                    <input class="col-md-12" type="number" id="month">
+                </div>
+                <div class="col-md-12">
+                <button class="btn btn-dark col-md-12" onclick="raschitat();">Рассчитать стоимость**</button>
+                <p class="col-md-12"><small>**Цена предварительная и указана без учета доставки. Точную стоимость можно узнать по <a class="text-light bg-dark" href="tel:+79651516065">телефону</a> или оставьте нам <a class="text-light bg-dark" href="#exampleModal" data-toggle="modal" data-target="#exampleModal">заявку</a>.</small></p>
+                <div class="text-lignt text-center"><h4>Цена составляет:</h4><h5 class="text-danger bg-white col-md-12 text-center" id="prise-calc"></h5></div>
+            </div>
             </div>
           </div>
         </div>

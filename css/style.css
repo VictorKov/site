@@ -16,6 +16,14 @@ header{
   list-style-type: none;
 }
 
+#prise-calc{
+  border-radius: 50px;
+}
+
+#online-calc input{
+  border-radius: 50px;
+}
+
 #Contacts{
   background: url(../img/body1.jpg);
   background-size: cover;
