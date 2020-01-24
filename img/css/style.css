@@ -1,0 +1,65 @@
+header{
+  background: url(../img/header1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+}
+
+#Prise{
+  background: #9A9EA1;
+  background-size: cover;
+  background-position: center;
+  min-height: 950px;
+}
+
+#Prise li{
+  list-style-type: none;
+}
+
+#prise-calc{
+  border-radius: 50px;
+}
+
+#online-calc input{
+  border-radius: 50px;
+}
+
+#Contacts{
+  background: #9A9EA1;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 416px){
+  #Prise{
+    min-height: 1200px;
+  }
+}
+
+header h1{
+  text-shadow: black 0 0 10px;
+}
+
+div{
+  border-radius: 5px;
+}
+
+section h3{
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 991px){
+  .mobile1{
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .mobile{
+    display: none !important;
+  }
+}
+
+#section5{
+  min-height: 60px;
+}

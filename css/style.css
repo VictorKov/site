@@ -1,39 +1,25 @@
+
 header{
   background: url(../img/header1.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 550px;
+  min-height: 600px;
+  box-sizing: border-box;
 }
 
-#Prise{
-  background: url(../img/body.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 950px;
+section{
+  border-top: #E20000 solid 15px;
 }
+
 
 #Prise li{
   list-style-type: none;
 }
 
-#prise-calc{
-  border-radius: 50px;
-}
-
-#online-calc input{
-  border-radius: 50px;
-}
 
 #Contacts{
-  background: url(../img/body1.jpg);
   background-size: cover;
   background-position: center;
-}
-
-@media screen and (max-width: 416px){
-  #Prise{
-    min-height: 1200px;
-  }
 }
 
 header h1{
@@ -60,6 +46,95 @@ section h3{
   }
 }
 
-#section5{
-  min-height: 60px;
+@media screen and (max-width: 767px){
+  .hide-block{
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 767px){
+  .hide-block1{
+    display: none !important;
+  }
+}
+
+.btn-order{
+  position: relative;
+  border-radius: 0 !important;
+}
+
+.btn-order:before{
+    content: '';
+    border: 2px solid #D04F4F;
+    border-right: 0px solid #D04F4F;
+    border-bottom: 2px solid #D04F4F;
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    width: calc(100% + 6px);
+}
+
+
+.btn-order:after{
+    content: '';
+    border: 2px solid #D04F4F;
+    border-left: 3px solid #D04F4F;
+    border-top: 0px solid #D04F4F;
+    position: absolute;
+    right: -6px;
+    bottom: 1px;
+    height: calc(100% + 1px);
+}
+
+/*calc*/
+
+
+.text-calc{
+  color: #D04F4F;
+}
+
+#col-month{
+  border-radius: 0;
+}
+
+#col-byt{
+  border-radius: 0;
+}
+
+
+/*background*/
+
+
+.bg-nav{
+  background-color: #002D87;
+}
+
+.bg-link{
+  background-color: #AA0000 !important;
+}
+
+.bg-link:hover, .bg-nav-link1:hover{
+  background-color: #E20000 !important;
+}
+
+
+.bg-header{
+  background-color: #004AA1;
+}
+
+.bg-header1{
+  background-color: #0061B5;
+  border: white solid 1px;
+}
+
+.bg-header2{
+  background-color: #E20000;
+}
+
+.bg-calc{
+  background-color: #E20000 !important;
+}
+
+iframe{
+  height: 500px;
 }
